@@ -13,10 +13,8 @@ class Erp extends CI_Controller {
 		$this->load->library ( 'ripcord/ripcord' );
 		$this->load->helper ( 'response' );
 		$this->load->config ( 'odoo' );
-		
 		$this->db = $this->config->item ( 'db' );
 		$this->url = $this->config->item ( 'url' );
-		
 		// GETTING U/P FROM URL REQUEST
 		$username = $this->input->post_get ( 'u' );
 		$this->password = $this->input->post_get ( 'p' );
@@ -28,7 +26,8 @@ class Erp extends CI_Controller {
 		}
 	}
 	public function index() {
-		$this->_resp_success ( 'Hello From API' );
+		print "TEST";
+		#$this->_resp_success ( 'Hello From API' );
 	}
 	// ######################
 	// ##### CORES ##########
