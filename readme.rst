@@ -4,9 +4,14 @@ What is It?
 
 This source codes is intended to wrap RipCord inside CodeIgniter to connect to Odoo. 
 We can get a flexibility of CodeIgniter itself for many purposes.
+<ul>
+<li>
 RipCord - https://github.com/DarkaOnLine/Ripcord
+</li>
+<li>
 CodeIgniter - https://codeigniter.com/
-
+</li>
+</ul>
 
 ***************
 Dependencie(s)
