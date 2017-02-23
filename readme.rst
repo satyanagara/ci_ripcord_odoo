@@ -2,14 +2,16 @@
 What is It?
 ###################
 
-This source codes is intended to wrap RipCord inside CodeIgniter to connect to Odoo. 
-We can get a flexibility of CodeIgniter itself for many purposes.
+This source codes is wrapping RipCord inside CodeIgniter to connect to Odoo. 
+So then, you can get the flexibility of CodeIgniter itself for many purposes.
+You can use this also to provide an REST API basis with JSON outout for every application that needs Odoo.
 
+- Odoo - https://odoo.com
 - RipCord - https://github.com/DarkaOnLine/Ripcord
 - CodeIgniter - https://codeigniter.com/
 
 ***************
-Dependencie(s)
+Dependencies
 ***************
 
 PHP XMLRPC
